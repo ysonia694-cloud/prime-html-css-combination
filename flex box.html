@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex box</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .item {
+            height: 100px;
+            width: 100px;
+            border: 3px solid blanchedalmond;
+            background-color: darkblue;
+        }
+    
+        #container {
+            height: 500px;
+            width: 500px;
+            background-color: cornsilk;
+            border: 5px solid blue;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap:wrap-reverse;
+    
+
+        }
+    </style>
+</head>
+<body>
+    <h1> flex box container</h1>
+    <div id="container">
+        <div id="item" class="item">Item 1</div>
+        <div id="item" class="item">Item 2</div>
+        <div id="item" class="item">Item 3</div>
+        <div id="item" class="item">Item 4</div>
+    </div>
+    
+</body>
+</html>
